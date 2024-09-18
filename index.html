@@ -52,6 +52,9 @@
                     <p><strong>Username:</strong> ${userName}</p>
                     <p><strong>First Name:</strong> ${firstName}</p>
                     <p><strong>Last Name:</strong> ${lastName}</p>
+
+                    <p><strong>Last Name:</strong> ${JSON.stringify(initData)}</p>
+                    <p><strong>Last Name:</strong> ${JSON.stringify(initDataUnsafe)}</p>
                 `;
             } else {
                 userInfoDiv.innerHTML = "<p>Unable to retrieve Telegram user data.</p>";
